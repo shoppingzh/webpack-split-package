@@ -1,10 +1,10 @@
 import Vue from 'vue'
+import Antd from 'ant-design-vue'
+import 'ant-design-vue/dist/antd.css'
 import App from './App.vue'
-import ElementUI from 'element-ui'
-import 'element-ui/packages/theme-chalk/lib/index.css'
 import { now } from '@/utils/date'
 
-Vue.use(ElementUI)
+Vue.use(Antd)
 
 Vue.config.productionTip = false
 
